@@ -5,3 +5,9 @@ func PanicIfUserError(err error) {
 		panic(err)
 	}
 }
+
+func PanicIfTaskError(err error) {
+	if err != nil {
+		panic(err)
+	}
+}

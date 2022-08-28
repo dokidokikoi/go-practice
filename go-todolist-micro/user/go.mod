@@ -49,8 +49,8 @@ require (
 	go.uber.org/zap v1.13.0 // indirect
 	golang.org/x/lint v0.0.0-20191125180803-fdd1cda4f05f // indirect
 	golang.org/x/tools v0.0.0-20191216173652-a0e659d51361 // indirect
-	google.golang.org/genproto v0.0.0-20191216164720-4f79533eabd1 // indirect
-	google.golang.org/grpc v1.26.0 // indirect
+	google.golang.org/genproto v0.0.0-20200526211855-cb27e3aa2013 // indirect
+	google.golang.org/grpc v1.49.0 // indirect
 	gopkg.in/fsnotify.v1 v1.4.7 // indirect
 	gopkg.in/tomb.v1 v1.0.0-20141024135613-dd632973f1e7 // indirect
 	gopkg.in/warnings.v0 v0.1.2 // indirect

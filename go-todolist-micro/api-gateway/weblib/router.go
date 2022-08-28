@@ -21,6 +21,16 @@ func NewRouter(service ...interface{}) *gin.Engine {
 		})
 		v1.POST("user/register", handlers.UserRegister)
 		v1.POST("user/login", handlers.UserLogin)
+
+		authed := v1.Group("/")
+		authed.Use(middleware.JWT())
+		{
+			authed.GET("task")
+			authed.POST("task")
+			authed.GET("task/:id")
+			authed.PUT("task/:id")
+			authed.DELETE("task/:id")
+		}
 	}
 
 	return ginRouter
