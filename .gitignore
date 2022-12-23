@@ -15,3 +15,7 @@
 # vendor/
 
 **/_*
+
+.vscode/
+
+.DS_Store
