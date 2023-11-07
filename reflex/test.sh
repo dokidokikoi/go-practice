@@ -1,0 +1,1 @@
+reflex -e -c reflex/reflex.conf --decoration="fancy"
